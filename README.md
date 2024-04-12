@@ -103,3 +103,11 @@ You should then be able to click on the 'send' button and receive the following 
 ```
 
 you should then be able to access the endpoint get re-directed to www.youtube.com by putting the url http://localhost:3000/d9331ac1 ``(This is using the above examples output)`` into your browser. 
+
+---
+**Unit Tests** 
+You can run the Unit tests by running the following command: 
+
+```
+npm run test
+```

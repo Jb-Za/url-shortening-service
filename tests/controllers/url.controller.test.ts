@@ -59,7 +59,7 @@ describe('shortenUrl', () => {
 
         await shortenUrl(req, res as Response);
 
-        expect(res.json).toHaveBeenCalledWith({ shortenedUrl: existingUrl.shortenedUrl});
+        expect(res.json).toHaveBeenCalledWith({ shortenedUrl: `http://localhost:${process.env.PORT || 3000}/${existingUrl.shortenedUrl}`});
     });
 
     it('should create and return a shortened URL if it does not exist', async () => {
