@@ -10,6 +10,7 @@ Before running the project, ensure you have the following installed:
 
 - Node.js (https://nodejs.org/)
 - Npm version:  20.11.0 (use other versions at your own debugging leisure)
+- Mongodb https://www.mongodb.com/try/download/community
 
 ``Optional: For node version manager, i suggest downloading it from the following github repo:  
 https://github.com/coreybutler/nvm-windows/releases ``
@@ -42,6 +43,8 @@ ts-node index.ts
 ```
 
 You should now have a running server. 
+
+You will then need to download and install mongodb https://www.mongodb.com/try/download/community. Select your platform. 
 
 ---
 **Using the Service**
